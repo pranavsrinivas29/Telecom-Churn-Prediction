@@ -80,6 +80,7 @@ param_grid = {
 
 ![ROC Curve - Logistic Regression](output-logreg.png)
 ![ROC Curve - Random Forest](output-rf.png)
+![ROC Curve - Random Forest with tuning](output-rf2.png)
 
 ---
 
