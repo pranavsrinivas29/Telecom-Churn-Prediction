@@ -50,7 +50,22 @@ To classify customers as **Churned** (`1`) or **Retained** (`0`) based on featur
 | Random Forest       | Balanced class weight, default settings  |
 
 ---
+---
 
+## 🔧 Random Forest Hyperparameter Tuning
+
+We tuned the Random Forest classifier using **GridSearchCV** with 5-fold cross-validation. The parameters searched included:
+
+```python
+param_grid = {
+    'n_estimators': [100, 200],
+    'max_depth': [None, 10, 20],
+    'min_samples_split': [2, 5, 10],
+    'min_samples_leaf': [1, 2, 4],
+    'class_weight': ['balanced']
+}
+```
+---
 ## 📊 Evaluation Metrics
 
 - Accuracy
@@ -72,13 +87,12 @@ To classify customers as **Churned** (`1`) or **Retained** (`0`) based on featur
 
 ### 🔹 Logistic Regression
 - **AUC Score**: `0.84`
-- **Balanced recall and precision**
-- Interpretable, generalized performance
+
+### 🔹 Random Forest (before tuning)
+- **AUC Score**: `0.81` 
 
 ### 🔹 Random Forest (before cleaning)
-- **AUC Score**: `0.81` (suspiciously high)
-- Caused by data leakage from `customerID`
-- Dropping `customerID` fixed the feature leakage
+- **AUC Score**: `0.84` 
 
 ---
 
