@@ -6,17 +6,26 @@
 This project focuses on predicting **customer churn** based on their telecom service usage and profile attributes. The goal is to explore feature importance, address class imbalance via algorithm-level methods (not resampling), and compare classifier performance.
 
 ---
+## 🎯 Motivation
+
+Customer retention is critical in the telecom industry where competition is fierce and customer switching costs are low. Churn — the act of customers leaving a service provider — directly impacts revenue and long-term business growth.
+
+Understanding **which customers are likely to churn** enables proactive retention strategies like personalized offers, contract upgrades, and targeted outreach.
+
+By leveraging historical customer data and machine learning, businesses can **predict churn early** and take strategic action to reduce it.
+
+---
 
 ## 📌 Project Objective
 
-To classify customers as **Churned** (`1`) or **Retained** (`0`) based on features like:
+This project aims to build a **churn prediction system** using historical behavioral and service usage data from telecom customers.
 
-- Tenure
-- MonthlyCharges & TotalCharges
-- Internet services
-- Contract type
-- Payment method
-- Tech support availability
+The primary goals are:
+- To **identify key features** influencing churn behavior
+- To **train interpretable and high-performance classifiers**
+- To **handle class imbalance** using model-level techniques (no synthetic sampling)
+- To **evaluate models** using meaningful metrics like AUC, F1-score, and recall
+- To **visualize feature impact and prediction performance**
 
 ---
 
