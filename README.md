@@ -58,7 +58,22 @@ The primary goals are:
 | Logistic Regression | Balanced class weight, max_iter=1000     |
 | Random Forest       | Balanced class weight, default settings  |
 
+
+### **Logistic Regression**
+
+Logistic regression is a statistical method used for predicting the probability of a binary outcome (like yes/no, 0/1) based on one or more predictor variables. It's a type of generalized linear model that uses a sigmoid function to transform the input features into a probability between 0 and 1. 
+
+![Logistic Regression](images/logreg-formula.png)
+![Wikipedia - Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression)
+
+### **Random Forest**
+
+Random forests or random decision forests is an ensemble learning method for classification, regression and other tasks that works by creating a multitude of decision trees during training. 
+
+![Random Forest](images/rf-formula.png)
+![Wikipedia - Random Forest](https://en.wikipedia.org/wiki/Random_forest)
 ---
+
 ---
 
 ## 🔧 Random Forest Hyperparameter Tuning
@@ -79,6 +94,8 @@ param_grid = {
 
 - Accuracy
 - Precision, Recall, F1-Score
+![Evaluation Metrics](images/metrics.png)
+
 - ROC AUC Score
 - Confusion Matrix
 - ROC Curve Visualization
@@ -87,9 +104,10 @@ param_grid = {
 
 ## 📈 ROC Curve
 
-![ROC Curve - Logistic Regression](output-logreg.png)
-![ROC Curve - Random Forest](output-rf.png)
-![ROC Curve - Random Forest with tuning](output-rf2.png)
+
+![ROC Curve - Logistic Regression](images/output-logreg.png)
+![ROC Curve - Random Forest](images/output-rf.png)
+![ROC Curve - Random Forest with tuning](images/output-rf2.png)
 
 ---
 
