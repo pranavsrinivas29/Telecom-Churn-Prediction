@@ -64,14 +64,14 @@ The primary goals are:
 Logistic regression is a statistical method used for predicting the probability of a binary outcome (like yes/no, 0/1) based on one or more predictor variables. It's a type of generalized linear model that uses a sigmoid function to transform the input features into a probability between 0 and 1. 
 
 ![Logistic Regression](images/logreg-formula.png)
-![Wikipedia - Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression)
+[Wikipedia - Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression)
 
 ### **Random Forest**
 
 Random forests or random decision forests is an ensemble learning method for classification, regression and other tasks that works by creating a multitude of decision trees during training. 
 
 ![Random Forest](images/rf-formula.png)
-![Wikipedia - Random Forest](https://en.wikipedia.org/wiki/Random_forest)
+[Wikipedia - Random Forest](https://en.wikipedia.org/wiki/Random_forest)
 ---
 
 ---
