@@ -90,7 +90,7 @@ param_grid = {
 - **AUC Score**: `0.84`
 
 ### 🔹 Random Forest (before tuning)
-- **AUC Score**: `0.81` 
+- **AUC Score**: `0.82` 
 
 ### 🔹 Random Forest (before cleaning)
 - **AUC Score**: `0.84` 
@@ -100,10 +100,9 @@ param_grid = {
 ## 🧠 Summary
 
 - **High-performing features**: `Tenure`, `MonthlyCharges`, `Contract`, `TechSupport`
-- `customerID` had to be removed due to leakage
+- `customerID` had to be removed due to least important feature
 - Final model avoids resampling and uses built-in class balancing
-- Logistic Regression provided strong performance without overfitting
-
+- Logistic Regression provided strong performance than RF without tuning but it was imporoved when tuned.
 ---
 
 ## 📦 Requirements
